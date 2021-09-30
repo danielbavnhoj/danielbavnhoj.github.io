@@ -1,0 +1,13 @@
+body {
+  font-family: "Roboto Mono";
+  color: white;
+  background: black; 
+}
+
+.navbar-brand {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    color: white !important;
+}
