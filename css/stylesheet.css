@@ -4,6 +4,24 @@ body {
   background: black;
 }
 
+@media only screen and (max-height: 600px) {
+    #fadeshow1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 750px) {
+    #fadeshow2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 1024px) {
+    #fadeshow3 {
+        display: none;
+    }
+}
+
 .navbar-brand {
     float: left;
     padding: 15px;
@@ -11,4 +29,22 @@ body {
     font-weight: bold;
     width: 100%;
     color: white !important;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  color: white;
+  text-decoration: none;
 }
