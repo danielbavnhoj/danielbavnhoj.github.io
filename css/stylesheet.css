@@ -65,3 +65,8 @@ h2, h3, h4, h5 {
     padding-top: 0.5em;
     margin-bottom: 0em !important
 }
+
+{
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 5000px;
+}
