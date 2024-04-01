@@ -20,19 +20,40 @@
 </head>
 
 <body>
-
-    <!-- Navbar
-    <nav class="navbar navbar-light bg-black">
-      <div class="container" text-align: "right">
-          <a class="navbar-brand">Daniel Bavnhøj</size></a>
+  <!-- Navbar start -->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#about">Daniel Bavnhøj</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#experience">Expericence</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav> -->
+    </div>
+  </nav>
+  <!-- Navbar end -->
     
-
+    <div section id = "about">
     <!-- fix padding on various screen sizes-->
-    <p id="fadeshow1" style="padding-top: 3em;"></p>
-    <p id="fadeshow2" style="padding-top: 5em;"></p>
-    <p id="fadeshow3" style="padding-top: 15em;"></p>
+    <p id="fadeshow1" style="padding-top: 8em;"></p>
+
 
     <!-- Page content - div for profile image-->
     <div class="container">
@@ -47,31 +68,140 @@
                 <div>
                 </div>
             </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <p>
+                    Hi! My name is Daniel. I am a computational cell factory engineer who is passionate about building digital solutions to make biology easier to engineer.
+                </p>
+            </div>
+            <div class="col-lg-2"></div>
+    </div>
 
-            <!-- div for short description of me -->
-            <div class="container">
-                <div class="row mx-auto">
-                    <div class="col-lg-2"></div>
-                    <div class="col-lg-8">
-                        <p class="text-center">
-                            Hi! My name is Daniel. I am a computational cell factory engineer who is passionate about building digital solutions to make biology easier to engineer.
-                            <br>
-                            <br>
-                            <a href="./cv"><button type="button" class="btn btn-success"><strong>Take a look at my CV</strong></button></a>
-                        </p>
-                    </div>
-                    <div class="col-lg-2"></div>
+        <div class="container">
+            <!-- Work experience -->
+            <div class="row mx-auto" section id = "experience">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <p id="fadeshow1" style="padding-top: 1em;"></p>
+                    <h1><strong>Experience</strong></h1>
+                    <h4><strong>Data Scientist</strong></h4>
+                    <strong>Novo Nordisk Pharmatech A/S</strong>
+                    <br>
+                    <span style="color:darkgray;">April 2024 - Ongoing</span>
+                    <h4><strong>Pilot Scientist</strong></h4>
+                    <strong>Novo Nordisk A/S</strong>
+                    <br>
+                    <span style="color:darkgray;">March 2022 - March 2024</span>
+                    <br>
+                    - Data visualization and digital twin building in OBIsoft PI vision
+                    <br>
+                    - Downstream process engineering (chromatographic purification, membrane filtration, and modification)
+                    <br>
+                    - Systems analysis for the design and implementation processes in a Manufacturing Execution System
+                    <br>
+                    - Built scripts for automation and streamlining repetitive workflows and a library for processmodeling using Python
+                    <br>
+                    - SOP and batch journal writing and reviewing, among other GxP related activities
+                    <br>
+                    - Local IT expert and data integrity steward
+
+                    <h4><strong>Website Design, Development, and Management and Text Curation</strong></h4>
+                    <strong>Freelance, self-employed</strong>
+                    <br>
+                    <span style="color:darkgray;">January 2020 - ongoing</span>
+                    <br>
+                    - Website design and deployment in WordPress for small companies
+                    <br>
+                    - Translation of product texts and customer service for european E-commerce websites
+
+                    <h4><strong>Student Researcher, DTU BioBuilders <a href="https://2020.igem.org/Team:DTU-Denmark">(<u>iGEM</u>)</a></strong></h4>
+                    <strong>DTU Bioengineering</strong>
+                    <br>
+                    <span style="color:darkgray;">February 2020 - November 2020</span>
+                    <br>
+                    - Experimental design and execution to make a CRISPR library for controlling morphology in <i>Aspergillus niger</i>
+                    <br>
+                    - Molecular cloning and lab scale fermentations to validate newly constructed biobricks and asses morphology
+                    <br>
+                    - Communication and discussions of previous results and future plans in a team of 13 students and 4 supervisors 
+                    <br>
+                    <i><strong>Awards: Best Model, Best Manufacturing Project, Best Part Collection</strong></i>
+                    <video controls="" width="100%">
+                    <source src="https://static.igem.org/mediawiki/2020/7/78/T--DTU-Denmark--Promotionvideo.mp4" type="video/mp4">
+                    </video>
+                    <br>
+
+                    <h4><strong>Customer Service, Cashier, and Sales Assistant</strong></h4>
+                    <strong>føtex</strong>
+                    <br>
+                    <span style="color:darkgray;">October 2013 - November 2020</span>
+                    <br>
+                    - Management of the customer service team
+                    <br>
+                    - Customer service and communication to ensure an awesome shopping experience and customer satisfaction
+
+
+                    <h4><strong>Substitute Teacher</strong></h4>
+                    <strong>Campusskolen Ringsted</strong>
+                    <br>
+                    <span style="color:darkgray;">March 2017 - September 2017</span>
+                    <br>
+                    - Taught math, physics, chemistry, biology, geography, and physical education to 7-9th graders
+
                 </div>
+                <div class="col-md-1"></div>
+            </div>
+
+            <!-- Education -->
+            <div class="row mx-auto" section id = "education">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <p id="fadeshow1" style="padding-top: 1em;"></p>
+                    <h1><strong>Education</strong></h1>
+                    <h4><strong>Master of Science in Engineering (Biotechnology)</strong></h4>
+                    <strong>Technical University of Denmark</strong>
+                    <br>
+                    <span style="color:darkgray;">September 2019 - July 2021</span>
+                    <br>
+                    <strong><i>Master thesis, Bacterial Cell Factory Optimisation group, DTU Biosustain</i></strong>
+                    <br>
+                    - Metabolic modeling of cell production strains using Genome-Scale and Black Box Models
+                    <br>
+                    - Built a novel model combining two types of metabolic models from different industrially relevant organisms
+                    <br>
+                    - Design and execution of cultivation experiments to elucidate critical steps in a co-cultivation
+                    <br>
+                    - Secretome prediction for an unconventional production organism using bioinformatics approaches
+                    <br>
+                    - Data analysis to evaluate the feasibility of the project in an industrial setting
+
+                    <h4><strong>Bachelor of Science in Biochemistry</strong></h4>
+                    <strong>University of Copenhagen</strong>
+                    <br>
+                    <span style="color:darkgray;">September 2016 - June 2019</span>
+                    <br>
+                    <strong><i>Bachelor thesis, Cell and Neurobiology group, University of Copenhagen</strong></i>
+                    <br>
+                    - Experimental design and construction of CRISPR vectors to genetically engineer <i>Drosophila melanogaster</i>
+                    <br>
+                    - Validation of genetic alterations through pupae size screening and immunostaining and RT-qPCR of tissues
+                    <br>
+                    - Analysis of data related to expression and physical alterations
+
+                </div>
+                <div class="col-md-1"></div>
             </div>
 
             <!-- social media links -->
-            <div class="container">
-                <p class="text-center">
-                    <a href="https://www.twitter.com/danielbavnhoj" class="fa fa-twitter"></a>
-                    <a href="https://www.github.com/danielbavnhoj" class="fa fa-github"></a>
-                    <a href="https://www.linkedin.com/in/danielbavnhoj" class="fa fa-linkedin"></a>
-                    <a href="mailto:dbavnhoj@gmail.com" class="fa fa-google"></a>
-                </p>
+            <div class="container" section id = "contact">
+                    <p id="fadeshow1" style="padding-top: 3em;"></p>
+                    <p class="text-center">
+                        <a href="https://www.twitter.com/danielbavnhoj" class="fa fa-twitter"></a>
+                        <a href="https://www.github.com/danielbavnhoj" class="fa fa-github"></a>
+                        <a href="https://www.linkedin.com/in/danielbavnhoj" class="fa fa-linkedin"></a>
+                        <a href="mailto:dbavnhoj@gmail.com" class="fa fa-google"></a>
+                    </p>
+                </div>
             </div>
 </body>
 
